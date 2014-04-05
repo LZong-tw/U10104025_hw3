@@ -3,6 +3,17 @@ import java.awt.*;
 
 public class UseBMIClass extends JFrame{
 	public UseBMIClass(){
+		/*Grid
+		 * ¢z¢w¢w¢w¢w¢w¢w¢w¢w¢{
+		 * ¢x        ¢x^
+		 * ¢xSentence¢x5
+		 * ¢x        ¢xv
+		 * ¢u¢w¢w¢w¢w¢w¢w¢w¢w¢t
+		 * ¢x        ¢x^
+		 * ¢xSentence¢x5
+		 * ¢x        ¢xv
+		 * ¢|¢w¢w¢w¢w¢w¢w¢w¢w¢}
+		 */
 		setLayout(new GridLayout(2,1,5,5));
 		
 		BMI bmi1=new BMI("John Doe", 18, 145, 70);
